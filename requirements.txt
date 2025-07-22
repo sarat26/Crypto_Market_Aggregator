@@ -1,0 +1,6 @@
+requests
+reportlab
+pandas
+numpy
+matplotlib
+jsonschema
