@@ -20,3 +20,11 @@ def get_spot_prices():
 def display_spot_prices(prices):
     for crypto, price in prices.items():
         print(f"{crypto.capitalize()}: ${price:,.2f}")
+
+def calculate_spot_prices(btc_price, eth_price, sol_price, ada_price):
+    return {
+        "BTC": btc_price,
+        "ETH": eth_price,
+        "SOL": sol_price,
+        "ADA": ada_price
+    }
